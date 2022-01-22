@@ -1,6 +1,6 @@
 # Galo-Startup
 
-A Python library that allows you to flexibly manage the startup and shutdown of an application
+A Python library that allows you to flexibly manage the startup and shutdown of an application.
 
 ## Installation
 

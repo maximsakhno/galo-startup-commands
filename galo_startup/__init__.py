@@ -1,5 +1,5 @@
 """
-A library that allows you to flexibly manage the startup and shutdown of an application
+A library that allows you to flexibly manage the startup and shutdown of an application.
 """
 
 import os

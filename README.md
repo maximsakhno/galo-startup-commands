@@ -1,5 +1,7 @@
 # Galo-Startup
 
+![Test workflow](https://github.com/maximsakhno/galo-startup/actions/workflows/test.yml/badge.svg)
+
 A Python library that allows you to flexibly manage the startup and shutdown of an application.
 
 ## Installation

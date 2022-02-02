@@ -3,8 +3,8 @@
 set -x
 set -e
 
-mypy galo_startup tests
-flake8 galo_startup tests
-black galo_startup tests --check
-isort galo_startup tests --check-only
-bandit galo_startup -r
+mypy galo_startup_commands tests
+flake8 galo_startup_commands tests
+black galo_startup_commands tests --check
+isort galo_startup_commands tests --check-only
+bandit galo_startup_commands -r

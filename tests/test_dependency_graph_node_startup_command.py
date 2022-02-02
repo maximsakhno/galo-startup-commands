@@ -2,7 +2,7 @@ from unittest.mock import AsyncMock, Mock
 
 import pytest
 
-from galo_startup import DependencyGraphNodeStartupCommand
+from galo_startup_commands import DependencyGraphNodeStartupCommand
 
 
 def test_get_name_when_name_is_none() -> None:

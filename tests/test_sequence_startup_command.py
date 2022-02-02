@@ -2,7 +2,7 @@ from unittest.mock import AsyncMock, Mock, call
 
 import pytest
 
-from galo_startup import SequenceStartupCommand
+from galo_startup_commands import SequenceStartupCommand
 
 
 def test_startup_and_shutdown() -> None:

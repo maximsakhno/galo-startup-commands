@@ -2,7 +2,7 @@ from unittest.mock import Mock
 
 import pytest
 
-from galo_startup import DependencyGraphNodeStartupCommand, to_graph
+from galo_startup_commands import DependencyGraphNodeStartupCommand, to_graph
 
 
 def test_empty_collection() -> None:

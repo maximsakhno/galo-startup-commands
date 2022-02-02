@@ -2,7 +2,7 @@ from unittest.mock import Mock
 
 import pytest
 
-from galo_startup import FunctionStartupCommand
+from galo_startup_commands import FunctionStartupCommand
 
 
 def test_startup() -> None:

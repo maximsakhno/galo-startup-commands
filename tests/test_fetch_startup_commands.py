@@ -1,4 +1,4 @@
-from galo_startup import fetch_startup_commands
+from galo_startup_commands import fetch_startup_commands
 
 
 def test_fetch_startup_commands() -> None:

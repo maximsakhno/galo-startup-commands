@@ -2,7 +2,7 @@ from typing import Dict, Set
 
 import pytest
 
-from galo_startup import GraphCycleException, topological_sort
+from galo_startup_commands import GraphCycleException, topological_sort
 
 
 def test_empty_graph() -> None:

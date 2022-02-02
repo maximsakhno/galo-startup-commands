@@ -2,7 +2,7 @@ from unittest.mock import AsyncMock, Mock, call
 
 import pytest
 
-from galo_startup import DependencyGraphNodeStartupCommand, startup_command
+from galo_startup_commands import DependencyGraphNodeStartupCommand, startup_command
 
 
 def test_without_parameters() -> None:

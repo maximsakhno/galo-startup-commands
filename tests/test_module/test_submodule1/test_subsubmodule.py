@@ -1,4 +1,4 @@
-from galo_startup import startup_command
+from galo_startup_commands import startup_command
 
 
 @startup_command

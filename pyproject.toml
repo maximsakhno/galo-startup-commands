@@ -3,7 +3,7 @@ requires = ["flit_core >=3.2,<4"]
 build-backend = "flit_core.buildapi"
 
 [project]
-name = "galo_startup"
+name = "galo_startup_commands"
 authors = [{name = "Maxim Sakhno", email = "maxim.sakhno@gmail.com"}]
 readme = "README.md"
 license = {file = "LICENSE"}
@@ -53,7 +53,8 @@ profile = "black"
 [tool.coverage.report]
 exclude_lines = [
     "import ",
-    "__all__",
+    "__version = ",
+    "__all__ = ",
     "pragma: no cover",
     "def __repr__",
     "raise AssertionError",

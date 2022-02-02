@@ -2,4 +2,4 @@
 
 set -x
 
-pytest --cov galo_startup --cov-report html tests
+pytest --cov galo_startup_commands --cov-report html tests

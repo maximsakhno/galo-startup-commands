@@ -3,7 +3,7 @@ from unittest.mock import AsyncMock, Mock, call
 
 import pytest
 
-from galo_startup import ContextManagerStartupCommand
+from galo_startup_commands import ContextManagerStartupCommand
 
 
 def test_context() -> None:

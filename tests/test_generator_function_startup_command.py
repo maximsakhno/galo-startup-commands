@@ -2,7 +2,7 @@ from unittest.mock import Mock, call
 
 import pytest
 
-from galo_startup import GeneratorFunctionStartupCommand
+from galo_startup_commands import GeneratorFunctionStartupCommand
 
 
 def test_startup_and_shutdown() -> None:

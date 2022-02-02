@@ -1,4 +1,4 @@
-from galo_startup import import_submodules
+from galo_startup_commands import import_submodules
 
 
 def test_module_with_nested_modules() -> None:

@@ -2,7 +2,7 @@ from unittest.mock import AsyncMock, call
 
 import pytest
 
-from galo_startup import AsyncGeneratorFunctionStartupCommand
+from galo_startup_commands import AsyncGeneratorFunctionStartupCommand
 
 
 def test_startup() -> None:

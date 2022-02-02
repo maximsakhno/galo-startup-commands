@@ -42,7 +42,7 @@ dev = [
 ]
 
 [project.urls]
-Source = "https://github.com/maximsakhno/galo-startup"
+Source = "https://github.com/maximsakhno/galo-startup-commands"
 
 [tool.black]
 line-length = 100
